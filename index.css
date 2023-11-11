@@ -112,47 +112,251 @@ ul{
     
 
 }
+.mulherpulando{
+    float: left;
+    width: 437;
+    height: 572;
+    position: absolute;
+    
+}
 
 .retangulocompremais{
     background: linear-gradient(90deg, #84FAB0 0%, #8FD3F4 100%);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
     width: 100%;
     height: 22rem;
-    display: block;
-    padding-top: 3%;
+    display: grid;
+    padding-top: 1.3rem;
+    place-items: center;
+    
 } 
-.mulherpulando{
-    float: left;
 
-}
 .centertextso1{
     font-size: 3rem;
 }
 .centertextso2{
-    margin-top: 2%;
     font-size: 2rem;
     font-weight: bold;
+    text-align: left;
+    margin-left: 3rem;
 }
 span{
     color: #C54848;
 }
 
 #compreagr-btnbox{
-    width: 15%;
-    height: 15%;
-    background: white;
+    width: 16rem;
+    height: 3.2rem;
+    background: #1CAAFA;
     display: flex;
-    border-radius: 20px;
+    border-radius: 1.3rem;
     justify-content: center;
     align-items: center;
-    margin-top: 1.6rem;    
-    flex: 1;
+   
+}
+
+#compreagr-btnbox:hover{
+    background: #0970AA;;
+}
+
+.centertextso3:link{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
 
 }
 
-.centertextso3{
+.centertextso3:visited{
+    color: white;
+}
+.off-quadrado{
+   position: absolute;
+   padding-top: 0.5rem;
+
+}
+.off-produto{
+    position: absolute;
+    width: 5rem;
+    height: 1.8rem;
+    background: #E54545;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.625rem;
+    box-shadow: 1.95px 1.95px 2.6px 0px rgba(0, 0, 0, 0.15);
+    color: white;
+}
+.imagem-produto{
+    max-width: 20rem;
+    max-height: 75rem;
+}
+.estrelas-produto{
+    margin-top: 0.5rem;
+}
+.produtos-title{
+    margin-top: 6rem;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.produtos-article{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 3rem;
+    justify-items: center;
+}
+
+.products{
+    width: 20rem ;
+}
+.marca-produto{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.descricao-produto{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: .5rem;
+    width: 20rem;
+}
+
+.preco-verde{
+    font-size: 1.8rem;
+    color: #47CB18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: .5rem;
+    font-weight: bold;
+}
+.preco p:first-child{
+    position: absolute;
+    width: 19.5rem;
+}
+
+.preco-vermelho {
+    color: red;
+    text-align: right;
+    position: absolute;
+    text-decoration: line-through;
+}
+    
+.parcelas-bold{
+    font-weight: bold;
+}
+.preco-parcelas{
+    display: block;
+    text-align: center;
+}
+
+.retangulo-avista{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 2rem;
+    border-top: 0.1rem solid #A9A9A9
+}
+
+.retangulo-avista p{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #419623;
+    font-weight: bold;
+}
+
+.retangulo-avista img{
+    margin-top: 1rem;
+
+}
+
+
+
+.product1{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Efeito de transição suave */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.product1:hover .overlay {
+    opacity: 1; /* Torna o overlay visível ao passar o mouse sobre o produto */
+}
+.alternar-imagem{
+    border: none;
+    background: none;
+    background-color: #0970AA;
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}
+.alternar-imagem img{
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+.trocar-corimg{
+    padding: 5px 5px;
+    background: none;
+}
+.trocar-corimg img{
+    max-width: 4.125rem;
+    max-height: 4.125rem;
+}
+
+.trocar-imagem button img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60px; /* Ajuste conforme necessário */
+    height: 60px;
+    margin-bottom: 10px; /* Espaçamento entre as novas imagens */
+}
+
+.botao-ver-mais nav{
+    background-color: #83EE5D;
+    color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição suave */
+    display: flex;
+    width: 17.825rem;
+    height: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.botao-ver-mais img{
+    position: absolute;
+    left: 5rem;
+    padding-top: 0.2rem;
+}
+
+.botao-ver-mais a:link{
+    text-decoration: none;
+}
+
+.botao-ver-mais p{
+    color: black;
+    font-size: 1.2rem;
+}
