@@ -137,7 +137,7 @@ span {
 #compreagr-btnbox {
   width: 16rem;
   height: 3.2rem;
-  background: #1caafa;
+  background: #00a6da;
   display: flex;
   border-radius: 1.3rem;
   justify-content: center;
@@ -145,7 +145,7 @@ span {
 }
 
 #compreagr-btnbox:hover {
-  background: #0970aa;
+  background: #0088b3;
 }
 
 .centertextso3:link {
@@ -486,4 +486,76 @@ span {
 
 .product-semimagemparatrocar2:hover .retangulo-avista {
   opacity: 0;
+}
+
+.ver-mais-btn-box {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ver-mais-btn {
+  width: 21rem;
+  height: 4.3rem;
+  background: #00a6da;
+  display: flex;
+  border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.ver-mais-btn:hover {
+  background-color: #0088b3;
+}
+
+.confira-nossas-colecoes-retangle {
+  background: linear-gradient(90deg, #dfffcd 0%, #90f9c4 48%, #39f3bb 100%);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.confira-nossas-colecoes-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+}
+
+.confira-nossas-colecoes-retangle h2 {
+  font-size: 3rem;
+  padding-bottom: 4rem;
+  color: #494242;
+}
+
+.d3-boxes {
+  text-align: center;
+  border: solid rgb(54, 54, 54, 0.1);
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  transition: transform 0.6s;
+}
+
+.d3-boxes p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #494242;
+}
+.d3-boxes a {
+  text-decoration: none;
+}
+
+.d3-boxes:hover {
+  transform: scale(1.1);
+  border: solid rgb(54, 54, 54, 0.6);
 }
