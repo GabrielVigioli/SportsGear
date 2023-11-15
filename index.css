@@ -8,13 +8,13 @@
 #background {
   background-color: #272727;
   width: auto;
-  height: 120px;
+  height: 7.5rem;
   display: flex; /* Usando flexbox para alinhar o conteúdo */
   align-items: center;
 }
 
 #logo_img {
-  margin-left: 72px;
+  margin-left: 4.5rem;
 }
 
 ul {
@@ -24,7 +24,7 @@ ul {
 
 .header-btns {
   color: white;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   display: inline-block;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ ul {
   );
   box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
   width: auto;
-  height: 90px;
+  height: 5.625rem;
   display: flex; /* Tornar o elemento pai um contêiner flexível */
   align-items: center; /* Alinhar verticalmente ao centro */
   justify-content: center; /* Alinhar horizontalmente ao centro */
@@ -48,11 +48,11 @@ ul {
 
 .searchbar {
   width: 40%;
-  height: 40px;
+  height: 2.5rem;
   background: white;
   display: flex;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   justify-content: center;
 }
 
@@ -70,7 +70,7 @@ ul {
   background: transparent;
   cursor: pointer;
   position: relative;
-  right: 20px;
+  right: 1.25rem;
 }
 
 .retanguloheaderdestaque {
@@ -113,7 +113,7 @@ ul {
 
 .retangulocompremais {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0rem 0.313rem 0.938rem 0rem rgba(0, 0, 0, 0.35);
   width: 100%;
   height: 22rem;
   display: grid;
@@ -170,7 +170,7 @@ span {
   align-items: center;
   justify-content: center;
   border-radius: 0.625rem;
-  box-shadow: 1.95px 1.95px 2.6px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0.122rem 0.122rem 0.163rem 0px rgba(0, 0, 0, 0.15);
   color: white;
 }
 .imagem-produto {
@@ -558,4 +558,92 @@ span {
 .d3-boxes:hover {
   transform: scale(1.1);
   border: solid rgb(54, 54, 54, 0.6);
+}
+
+.garantia-retangle h2 {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 3rem;
+}
+
+.garantia-retangle2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 4rem;
+  justify-items: center;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+.garantia-retangle2 img {
+  padding-bottom: 1rem;
+}
+.garantia-retangle2 strong {
+  font-size: 1.5rem;
+}
+
+.garantia-retangle2 p {
+  padding-top: 1rem;
+  width: 22rem;
+  padding-left: 1rem;
+}
+
+.garantia-box {
+  width: 23rem;
+  border-radius: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: rgba(250, 250, 250, 0.6);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.garantia-box:hover {
+  background-color: rgb(243, 243, 243);
+}
+footer {
+  background: #272727;
+}
+.footer-informacoes-adicionais {
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.footer-row-informacoes a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  padding-left: 1.3rem;
+}
+
+.footer-row-informacoes p {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+.footer-formas-de-pagamento {
+  border-top: solid white;
+  width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-formas-de-pagamento h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.footer-display-grid {
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
 }
