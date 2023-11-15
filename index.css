@@ -16,18 +16,24 @@
 #logo_img {
   margin-left: 4.5rem;
 }
-
-ul {
-  display: inline-block;
-  margin-left: 10rem;
+.header-btns2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding-left: 9rem;
+  column-gap: 9rem;
 }
-
-.header-btns {
+.header-btns a {
   color: white;
   margin-left: 0.625rem;
-  display: inline-block;
   text-decoration: none;
 }
+
+.header-btns3:hover {
+  color: #90f9c4;
+}
+
 .header-btns:hover {
   color: aquamarine;
 }
