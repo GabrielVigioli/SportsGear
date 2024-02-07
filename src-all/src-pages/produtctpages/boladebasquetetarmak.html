@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Gear</title>
+    <link rel="stylesheet" href="boladebasquetetarmak.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.min.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <section id="background">
+            <a href="/src-all/src-pages/main/index.html">
+                <img id="logo_img" src="/src-all/src-pages/images/header/logoescrito.png" alt="logo" width="" height=""
+                    loading="eager">
+            </a>
+            <section class="header-btns">
+                <nav>
+                    <section class="header-btns2">
+                        <section>
+                            <img src="/src-all/src-pages/images/header/entrar_symbol.png" alt="entrar/cadastro" width=""
+                                height="" loading="eager">
+                            <a class="header-btns3" href="#">Cadastrar</a>
+                            <a class="header-btns3" href="#">Entrar</a>
+                        </section>
+                        <section>
+                            <img src="/src-all/src-pages/images/header/meucarrinho_symbol.png" alt="meu carrinho"
+                                width="" height="" loading="eager">
+                            <a class="header-btns3" href="#">Meu carrinho</a>
+                        </section>
+                        <section>
+                            <img src="/src-all/src-pages/images/header/help_symbol.png" alt="ajuda" width="" height=""
+                                loading="eager">
+                            <a class="header-btns3" href="#">Ajuda</a>
+                        </section>
+                    </section>
+                </nav>
+            </section>
+        </section>
+        <section id="backgroundpesquisa">
+            <form action="" method="get" class="searchbar">
+                <input type="stext" name="searchbar" id="searchbar" placeholder="O que voce procura?" required
+                    autocomplete="off">
+                <button type="submit"><img src="/src-all/src-pages/images/header/search.png" loading="eager"></button>
+            </form>
+        </section>
+    </header>
+    <main>
+        <section class="retancle-produto-info">
+            <div class="image-changer">
+                <div class="product-images">
+                    <figure>
+                        <img src="/src-all/src-pages/images/products/tarmakr100/tarmakr1001.png"
+                            alt="Primei32ra imagem da bola de basquete tarmak R100" loading="eager">
+                    </figure>
+                    <figure>
+                        <img src="/src-all/src-pages/images/products/tarmakr100/tarmakr1002.png"
+                            alt="Segunda imagem da bola de basquete tarmak R100" loading="eager">
+                    </figure>
+                    <figure>
+                        <img src="/src-all/src-pages/images/products/tarmakr100/tarmakr1003.png"
+                            alt="Terceira imagem da bola de basquete tarmak R100" loading="eager">
+                    </figure>
+
+                    <figure>
+                        <img src="/src-all/src-pages/images/products/tarmakr100/tarmakr1004.png"
+                            alt="Quarta imagem da bola de basquete tarmak R100" loading="eager">
+                    </figure>
+
+                    <figure>
+                        <img src="/src-all/src-pages/images/products/tarmakr100/tarmakr1005.png"
+                            alt="Quinta imagem da bola de basquete tarmak R100" loading="eager">
+                    </figure>
+
+                </div>
+            </div>
+            <div class="big-product-image">
+                <div id="zoom-container">
+                    <figure>
+                        <script>
+                            $(document).ready(function () {
+                                $('#zoom-container').zoom({
+                                    url: $('#zoom-image').attr('src'),
+                                    on: 'mouseover',
+                                    duration: 300,
+                                    touch: false,
+                                    magnify: 2
+                                });
+                            });
+                        </script>
+                        <img id="zoom-image" src="/src-all/src-pages/images/products/tarmakr100/tarmakr1001.png"
+                            alt="Primeira imagem da bola de basquete tarmak R100" loading="eager">
+                    </figure>
+                </div>
+            </div>
+            <div class="product-buy-info">
+                <div class="product-upper-part">
+                    <div class="stars-review">
+                        <figure>
+
+                            <img src="/src-all/src-pages/images/products/stars/5stars.png"
+                                alt="Avalição do produto em estrelas (5 estrelas)" loading="eager">
+                        </figure>
+                        <p>(256)</p>
+                    </div>
+                    <div class="product-name">
+                        <p>
+                            <strong>TARMAK</strong>
+                        </p>
+                    </div>
+                    <div class="product-name-description">
+                        <p>Bola de basquete Tarmak R100 T7</p>
+                    </div>
+                    <div class="product-price">
+                        <p>
+                            <strong>R$ 49,99</strong>
+                        </p>
+                    </div>
+                    <div class="product-fees">
+                        <p>ou <strong>5x</strong> de <strong>R$ 10</strong> sem juros</p>
+                    </div>
+                    <div class="product-incash">
+                        <p>ou <strong>R$ 43</strong> à vista</p>
+                    </div>
+                    <div class="guarantee">
+                        <figure> <span
+                                class="not-selectable">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <img src="/src-all/src-pages/images/products/garantia/garantia.png"
+                                alt="Símbolo de escudo, representando a garantia de entrega do produto">
+                        </figure>
+                        <p>Vendido e entregue por <strong>Sports Gear</strong></p>
+                    </div>
+                </div>
+                <div class="down-side">
+                    <div class="left-side">
+                        <div class="product-color">
+                            <p><strong>Cor:</strong> Laranja</p>
+                        </div>
+                        <div class="product-image">
+                            <figure>
+                                <img src="/src-all/src-pages/images/products/tarmakr100/tarmakr1001.png"
+                                    alt="Primeira imagem da bola de basquete tarmak R100" loading="eager">
+                            </figure>
+                        </div>
+                        <div class="product-size">
+                            <p><strong>Tamanho:</strong></p>
+                            <p><strong>7</strong></p>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="cart">
+                            <div class="add-cart">
+                                <p>Adicionar ao carrinho</p>
+                            </div>
+                        </div>
+                        <div class="buy-now-ammount">
+                            <div class="ammount">
+                                <select id="quantity" name="quantity">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                </select>
+                            </div>
+                            <div class="buy-now">
+                                <p>Comprar agora</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-information-about">
+            <div class="about-product">
+                <h2>Sobre o Produto</h2>
+                <p>Desenvolvido para a prática de basquete. Bola ideal para iniciar no esporte, graças ao seu
+                    revestimento
+                    em borracha, o que traz maior aderência e resistência a bola.</p>
+            </div>
+        </section>
+        <div class="product-benefits">
+            <h2>Benefícios do Produto</h2>
+        </div>
+        <section class="product-information-benefits">
+            <div>
+                <img class="img-benefits" src="/src-all/src-pages/images/products/tarmakr100/resistencia.png" alt="">
+
+                <div class="resistence-grip-bounce--quality">
+                    <p><strong>Resistência</strong></p>
+                    <p>Boa resistência graças ao revestimento em borracha de 1,2 mm</p>
+                </div>
+            </div>
+            <div>
+                <img class="img-benefits" src="/src-all/src-pages/images/products/tarmakr100/quique.png" alt="">
+                <div class="resistence-grip-bounce--quality">
+                    <p><strong>Qualidade do Quique</strong></p>
+                    <p>Ótima aderência graças a borracha.</p>
+                </div>
+            </div>
+            <div>
+                <img class="img-benefits" src="/src-all/src-pages/images/products/tarmakr100/aderencia.png" alt="">
+                <div class="resistence-grip-bounce--quality">
+                    <p><strong>Aderência</strong></p>
+                    <p>Boa qualidade no quique graças à câmara de ar 100% revestida a poliéster</p>
+                </div>
+            </div>
+        </section>
+        <section class="table-technical-information">
+            <div class="table-borders">
+                <table class="rounded-corners">
+                    <tr>
+                        <th class="table-title last-child-right" colspan="2">Informações Técnicas</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Como escolher uma bola de basquete?</strong></td>
+                        <td class="last-child-right">A escolha do tamanho ideal da bola para basquete é importante. E no
+                            basquete a escolha do
+                            tamanho é feita pela idade. T1: partir dos 3 anos T3: 4 aos 6 anos T5: Meninas dos 7 aos 11
+                            anos
+                            e meninos dos 7 aos 13 anos T6: Mulheres ou meninos dos 13 aos 14 anos T7: Meninos a partir
+                            dos
+                            14 anos.</td>
+                    </tr>
+                    <tr class="last-child-bottom">
+                        <td class="last-child-bottom"><strong>Composição</strong></td>
+                        <td class="last-child-bottom last-child-right">Câmara 100% - Borracha - Borracha Natural (NR) -
+                            Latex Tecido principal 100% - Borracha -
+                            Borracha Natural (NR) - Latex Bobina 100% - Poliéster</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <h2 class="header-ideal-ball">Bola ideal para inicar no basquete</h2>
+        <div class="ideal-ball-images-container">
+            <div>
+                <figure><img src="/src-all/src-pages/images/products/tarmakr100/qualidadedoquique.png" alt=""></figure>
+            </div>
+            <div>
+                <figure><img src="/src-all/src-pages/images/products/tarmakr100/resistenciadown.png" alt=""></figure>
+            </div>
+            <div>
+                <figure><img src="/src-all/src-pages/images/products/tarmakr100/aderenciadown.png" alt=""></figure>
+            </div>
+        </div>
+        <h2 class="header-product-rating">Avaliações do Produto</h2>
+        <div class="ratings-conteiner">
+            <div class="ratings-left-side">
+                <div class="first-rating">
+                    <div class="rating-stars">
+                        <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                        <p>5.0</p>
+                    </div>
+                    <p class="rating-name">Roberto</p>
+                    <div>
+                        <p class="rating-comment">Já tinha ouvido falarem bem e resolvi testar!</p>
+                    </div>
+                </div>
+                <div class="first-rating">
+                    <div class="rating-stars">
+                        <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                        <p>4.0</p>
+                    </div>
+                    <p class="rating-name">Jeferson</p>
+                    <div>
+                        <p class="rating-comment">Única ressalva é que ela vem da loja não completamente cheia e não
+                            fornecem informações para o preenchimento seguro e adequado.</p>
+                    </div>
+                </div>
+                <div class="first-rating">
+                    <div class="rating-stars">
+                        <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                        <p>5.0</p>
+                    </div>
+                    <p class="rating-name">Igor</p>
+                    <div>
+                        <p class="rating-comment">Adorei produto e o atendimento, tudo muito bom.
+                            Obrigado!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ratings-right-side">
+                <div class="ratings-right-side-conteiner">
+                    <p class="medium-rating-p">Nota média</p>
+                    <div class="medium-rating">
+                        <img src="/src-all/src-pages/images/products/stars/alonestar.png" alt="">
+                        <p>4.3</p>
+                    </div>
+                    <p class="rating-number">206 avaliações</p>
+                    <div class="rating-btn">
+                        <p>Avaliar Produto</p>
+                    </div>
+                </div>
+                <div class="rating-right-side-down-conteiner">
+                    <div class="ratings-retancles">
+                        <div class="numbers-rating">
+                            <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                            <p>5</p>
+                            <figure><img src="/src-all/src-pages/images/products/tarmakr100/rating5.png" alt="">
+                            </figure>
+                            <p>140</p>
+                        </div>
+                        <div class="numbers-rating">
+                            <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                            <p>4</p>
+                            <figure><img src="/src-all/src-pages/images/products/tarmakr100/rating4.png" alt="">
+                            </figure>
+                            <p>36</p>
+                        </div>
+                        <div class="numbers-rating">
+                            <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                            <p>3</p>
+                            <figure><img src="/src-all/src-pages/images/products/tarmakr100/rating3.png" alt="">
+                            </figure>
+                            <p>8</p>
+                        </div>
+                        <div class="numbers-rating">
+                            <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                            <p>2</p>
+                            <figure><img src="/src-all/src-pages/images/products/tarmakr100/rating2.png" alt="">
+                            </figure>
+                            <p>4</p>
+                        </div>
+                        <div class="numbers-rating">
+                            <figure><img src="/src-all/src-pages/images/products/stars/alonestar.png" alt=""></figure>
+                            <p>1</p>
+                            <figure><img src="/src-all/src-pages/images/products/tarmakr100/rating1.png" alt=""
+                                    id="rating-1">
+                            </figure>
+                            <p>18</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="header-similar-products">Produtos similares</h2>
+        <article class="produtos-article">
+            <section class="product-imagemparatrocar">
+                <section class="off-quadrado">
+                    <p class="off-produto">45% OFF</p>
+                </section>
+                <img class="imagem-produto " src="/src-all/src-pages/images/products/tarmakmini/tarmakminiamarela1.png"
+                    alt="bola de basquete tarmak mini amarela" width="" height="" loading="lazy">
+                <section>
+                    <img class="estrelas-produto" src="/src-all/src-pages/images/products/stars/5stars.png"
+                        alt="cinco estrelas" width="" height="" loading="lazy">
+                </section>
+                <section>
+                    <p class="marca-produto">TARMAK</p>
+                    <p class="descricao-produto">Mini Bola de Basquete K100 Rubber</p>
+                </section>
+                <section class="preco">
+                    <p class="preco-vermelho">R$ 55,00</p>
+                    <p class="preco-verde">R$ 30,25</p>
+                    <p class="preco-parcelas">até <strong>3x</strong> de <strong>R$ 10,00</strong> sem juros</p>
+                </section>
+                <section class="retangulo-avista">
+                    <img src="/src-all/src-pages/images/products/card/Vector.png" alt="cartao" width="" height=""
+                        loading="lazy">
+                    <p>R$ 25,00 a vista</p>
+                </section>
+                <section class="overlay">
+                    <section class="trocar-imagem">
+                        <button class="alternar-imagem">
+                            <img src="/src-all/src-pages/images/products/vermais/trocar-left.png"
+                                alt="trocar imagem esqeuerda" width="" height="" loading="lazy">
+                        </button>
+                        <button class="alternar-imagem1">
+                            <img src="/src-all/src-pages/images/products/vermais/trocar-right.png"
+                                alt="trocar imagem direita" width="" height="" loading="lazy">
+                        </button>
+                    </section>
+                    <section class="trocar-cor">
+                        <button class="trocar-corimg">
+                            <img src="/src-all/src-pages/images/products/tarmakmini/tarmakminiamarela1.png"
+                                alt="Tarmak mini amarela" width="" height="" loading="lazy">
+                        </button>
+                        <button class="trocar-corimg">
+                            <img src="/src-all/src-pages/images/products/tarmakmini/tarmakminiazul1.png"
+                                alt="Tarmak mini Azul" width="" height="" loading="lazy">
+                        </button>
+                        <button class="trocar-corimg">
+                            <img src="/src-all/src-pages/images/products/tarmakmini/tarmakminivermelha1.png"
+                                alt="tarmak mini vermelha" width="" height="" loading="lazy">
+                        </button>
+                    </section>
+                    <section class="botao-ver-mais">
+                        <nav>
+                            <a href="/src-all/src-pages/produtctpages/boladebasquetetarmak.html">
+                                <div>
+                                    <img src="/src-all/src-pages/images/products/vermais/lupa.png" alt="lupa" width=""
+                                        height="" loading="lazy">
+                                    <p>Ver mais</p>
+
+                                </div>
+                            </a>
+                        </nav>
+                    </section>
+                </section>
+            </section>
+            <section class="product-semimagemparatrocar2">
+                <section class="off-quadrado">
+                    <p class="off-produto">26% OFF</p>
+                </section>
+                <img class="imagem-produto"
+                    src="/src-all/src-pages/images/products/wilsonnbadvrpro7/wilsonnbadvrpro71.png"
+                    alt="bola de basquete wilson NBA DVR Pro #7" width="" height="" loading="lazy">
+                <section>
+                    <img class="estrelas-produto" src="/src-all/src-pages/images/products/stars/5stars.png"
+                        alt="cinco estrelas" width="" height="" loading="lazy">
+                </section>
+                <section>
+                    <p class="marca-produto">Wilson</p>
+                    <p class="descricao-produto">Bola de Basquete Wilson NBA DVR Pro #7 - Marrom</p>
+                </section>
+                <section class="preco">
+                    <p class="preco-vermelho">R$ 300,99</p>
+                    <p class="preco-verde">R$ 219,90</p>
+                    <p class="preco-parcelas">até <strong>3x</strong> de <strong>R$ 73,30</strong> sem juros</p>
+                </section>
+                <section class="retangulo-avista">
+                    <img src="/src-all/src-pages/images/products/card/Vector.png" alt="cartao" width="" height=""
+                        loading="lazy">
+                    <p>R$ 190,00 a vista</p>
+                </section>
+                <section class="overlay">
+                    <section class="trocar-imagem">
+                        <button class="alternar-imagem">
+                            <img src="/src-all/src-pages/images/products/vermais/trocar-left.png"
+                                alt="trocar imagem esqeuerda" width="" height="" loading="lazy">
+                        </button>
+                        <button class="alternar-imagem1">
+                            <img src="/src-all/src-pages/images/products/vermais/trocar-right.png"
+                                alt="trocar imagem direita" width="" height="" loading="lazy">
+                        </button>
+                    </section>
+                    <section class="botao-ver-mais">
+                        <nav>
+                            <a href="/src-all/src-pages/produtctpages/boladebasquetetarmak.html">
+                                <div>
+                                    <img src="/src-all/src-pages/images/products/vermais/lupa.png" alt="lupa" width=""
+                                        height="" loading="lazy">
+                                    <p>Ver mais</p>
+
+                                </div>
+                            </a>
+                        </nav>
+                    </section>
+                </section>
+            </section>
+        </article>
+        <nav class="ver-mais-btn-box">
+            <a href="/src-all/src-pages/Products/products.html" class="ver-mais-btn">Ver mais</a>
+        </nav>
+        <article class="confira-nossas-colecoes-retangle">
+            <h2>Confira nossas coleções</h2>
+            <section class="confira-nossas-colecoes-box">
+                <section class="d3-boxes">
+                    <nav>
+                        <a href="">
+                            <img src="/src-all/src-pages/images/checkuorcollections/carrinho_verificado.png"
+                                alt="carrinho simbolico" width="220" height="220" loading="lazy">
+                            <p>Mais vendidos</p>
+                        </a>
+                    </nav>
+                </section>
+                <section class="d3-boxes">
+                    <nav>
+                        <a href="">
+                            <img src="/src-all/src-pages/images/checkuorcollections/ofertas_symbol.png" alt="ofertas"
+                                width="220" height="220" loading="lazy">
+                            <p>Ofertas</p>
+                        </a>
+                    </nav>
+                </section>
+                <section class="d3-boxes">
+                    <nav>
+                        <a href="">
+                            <img src="/src-all/src-pages/images/checkuorcollections/novidades_symbol.png"
+                                alt="novidades" width="220" height="220" loading="lazy">
+                            <p>Novidades</p>
+                        </a>
+                    </nav>
+                </section>
+            </section>
+        </article>
+    </main>
+    <section>
+        <footer>
+            <section class="footer-informacoes-adicionais">
+                <section class="footer-row-informacoes">
+                    <p>Fale Conosco</p>
+                    <nav>
+                        <a href="#">Enviar e-mail: sportsgear@gmail.com</a><br>
+                        <a href="#">Telefone: (54) 9999-9999</a><br>
+                    </nav>
+                </section>
+                <section class="footer-row-informacoes">
+                    <p>Institucional</p>
+                    <nav>
+                        <a href="#">Acompanhe seu pedido</a><br>
+                        <a href="#">Termos de serviço</a><br>
+                        <a href="#">Politica de devolução</a><br>
+                        <a href="#">Investidores</a><br>
+                    </nav>
+                </section>
+                <section class="footer-row-informacoes">
+                    <p>Sobre a Sports Gear</p>
+                    <nav>
+                        <a href="#">Quem somos</a> <br>
+                        <a href="#">Garantia</a><br>
+                        <a href="#">Atendimento</a><br>
+                    </nav>
+                </section>
+                <section class="footer-row-informacoes">
+                    <p>Site</p>
+                    <nav>
+                        <a href="#">Pesquisar</a><br>
+                        <a href="#">Catalogo</a><br>
+                        <a href="#">Meu carrinho</a><br>
+                        <a href="#">Entrar</a><br>
+                    </nav>
+                </section>
+            </section>
+            <section class="footer-formas-de-pagamento">
+                <h2>Formas de Pagamento</h2>
+                <section class="footer-display-grid">
+                    <section class="footer-row-formas-de-pagamento">
+                        <img src="/src-all/src-pages/images/footer/visa.png" " width="" height="" loading=" lazy">
+                    </section>
+                    <section class="footer-row-formas-de-pagamento">
+                        <img src="/src-all/src-pages/images/footer/mastercard.png" width="" height="" loading="lazy">
+                    </section>
+                    <section>
+                        <img src="/src-all/src-pages/images/footer/boleto.png" width="" height="" loading="lazy">
+                    </section>
+                    <section class="footer-row-formas-de-pagamento">
+                        <img src="/src-all/src-pages/images/footer/paypal.png" width="" height="" loading="lazy">
+                    </section>
+                    <section class="footer-row-formas-de-pagamento">
+                        <img src="/src-all/src-pages/images/footer/elo.png" width="" height="" loading="lazy">
+                    </section>
+                </section>
+            </section>
+        </footer>
+</body>
